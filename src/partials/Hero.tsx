@@ -55,6 +55,7 @@ const Hero = () => (
             target="_blank"
             rel="noreferrer noopener"
           >
+            <span className="sr-only">Linkedin</span>
             <LinkedinIcon />
           </a>
           <a
@@ -62,6 +63,7 @@ const Hero = () => (
             target="_blank"
             rel="noreferrer noopener"
           >
+            <span className="sr-only">Instagram</span>
             <InstagramIcon />
           </a>
           <a
@@ -69,9 +71,11 @@ const Hero = () => (
             target="_blank"
             rel="noreferrer noopener"
           >
+            <span className="sr-only">Facebook</span>
             <FacebookIcon />
           </a>
           <a href="tel:0761031902">
+            <span className="sr-only">Whatsapp</span>
             <WhatsAppIcon />
           </a>
         </Fragment>
