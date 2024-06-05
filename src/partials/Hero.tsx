@@ -12,7 +12,7 @@ const Hero = () => (
   <Section>
     <HeroAvatar
       title={
-        <Fragment>
+        <div className="-mt-10 md:mt-0">
           <p>Bienvenue chez Temp'ô coaching,</p>
           <p>
             Je m'appelle <GradientText>Magali Deniaud</GradientText> 👋
@@ -21,7 +21,7 @@ const Hero = () => (
             Consultante en <GradientText>santé mentale</GradientText> et{' '}
             <GradientText>bien être émotionnel</GradientText>
           </p>
-        </Fragment>
+        </div>
       }
       description={
         <div className="flex flex-col gap-y-5">
@@ -34,13 +34,13 @@ const Hero = () => (
         </div>
       }
       avatar={
-        <div className="relative">
-          <div className="absolute inset-0 w-80 rotate-[10deg] rounded-lg bg-gradient-to-r from-primary to-primary/65"></div>
-          <div className="absolute inset-0 w-80 rounded-lg bg-white"></div>
+        <div className="relative mt-10 md:mt-0">
+          <div className="absolute inset-0 w-64 rotate-[10deg] rounded-lg bg-gradient-to-r from-primary to-primary/65 md:w-80"></div>
+          <div className="absolute inset-0 w-64 rounded-lg bg-white md:w-80"></div>
           {/* eslint-disable-next-line tailwindcss/no-custom-classname */}
           <div className="z-1 relative rounded-lg bg-primary/30">
             <img
-              className="w-80 object-cover"
+              className="w-64 object-cover md:w-80"
               src="/assets/images/avatar.png"
               alt="Avatar image"
               loading="lazy"

@@ -7,7 +7,7 @@ type Props = {
 
 export function Section(props: Props) {
   return (
-    <div className="mx-auto max-w-screen-lg px-3 py-10">
+    <div className="mx-auto max-w-screen-lg px-5 py-10">
       {props.title && (
         <div className="mb-6 text-2xl font-bold">{props.title}</div>
       )}
