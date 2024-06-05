@@ -1,7 +1,8 @@
 import type { IFrontmatter } from 'astro-boilerplate-components';
-import { PostContent, PostHeader, Section } from 'astro-boilerplate-components';
+import { PostHeader, Section } from 'astro-boilerplate-components';
 import type { ReactNode } from 'react';
 
+import { PostContent } from '@/partials/PostContent';
 import { AppConfig } from '@/utils/AppConfig';
 
 type IBlogPostProps = {
@@ -12,7 +13,9 @@ type IBlogPostProps = {
 const BlogPost = (props: IBlogPostProps) => (
   <Section>
     <PostHeader content={props.frontmatter} author={AppConfig.author} />
-    <PostContent content={props.frontmatter}>{props.children}</PostContent>
+    <PostContent content={props.frontmatter}>
+      <div className="text-gray-700">{props.children}</div>
+    </PostContent>
   </Section>
 );
 

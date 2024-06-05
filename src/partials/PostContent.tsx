@@ -18,9 +18,7 @@ export function PostContent(props: PropsWithChildren<Props>) {
           loading="lazy"
         />
       </div>
-      <div className="prose prose-invert mt-8 prose-img:rounded-lg">
-        {props.children}
-      </div>
+      <div className="prose  mt-8 prose-img:rounded-lg">{props.children}</div>
     </div>
   );
 }
