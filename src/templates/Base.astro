@@ -2,6 +2,7 @@
 import { Footer } from '@/partials/Footer';
 import { Navbar } from '@/partials/Navbar';
 import { AppConfig } from '@/utils/AppConfig';
+import { ViewTransitions } from 'astro:transitions'
 
 export interface Props {
   head: {
@@ -25,6 +26,7 @@ const {
 
     <link rel='alternate' type='application/rss+xml' href='/rss.xml' />
     <link rel='icon' type='image/x-icon' href='/favicon.ico' />
+    <ViewTransitions />
   </head>
   <body class='bg-circle-gradient from-primary/10 to-white text-gray-700'>
     <Navbar />
