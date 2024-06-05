@@ -12,10 +12,7 @@ export function Services() {
           <p>
             J'accompagne jeunes et adultes, patients en arrêt de travail ou non,
             vers le mieux-être émotionnel, dans la recherche de sens à leur
-            activité scolaire et professionnelle. J'accompagne jeunes et
-            adultes, patients en arrêt de travail ou non, vers le mieux-être
-            émotionnel, dans la recherche de sens à leur activité scolaire et
-            professionnelle.
+            activité scolaire et professionnelle.
           </p>
           <p>
             Je propose un accompagnement personnalisé (individuel ou collectif)
