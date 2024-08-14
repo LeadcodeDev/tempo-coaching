@@ -18,6 +18,7 @@ export function Navbar() {
         <NavMenu>
           <NavMenuItem href="/">Portfolio</NavMenuItem>
           <NavMenuItem href="/posts/">Articles</NavMenuItem>
+          <NavMenuItem href="/articles/">Gazettes</NavMenuItem>
         </NavMenu>
       </NavbarTwoColumns>
     </Section>

@@ -8,7 +8,7 @@ export function Citation() {
           viewBox="0 0 162 128"
           fill="none"
           aria-hidden="true"
-          className="absolute left-0 top-0 -z-10 h-32 stroke-gray-700/20"
+          className="absolute left-0 top-0 -z-10 h-32 stroke-white"
         >
           <path
             id="b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb"
