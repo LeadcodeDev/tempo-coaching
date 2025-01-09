@@ -18,13 +18,6 @@ export function BlogCard(props: { instance: any }) {
           <h2 className="text-xl font-semibold">
             {props.instance.frontmatter.title}
           </h2>
-          <div className="mt-1 text-xs text-gray-400">
-            {/* {format( */}
-            {/*  new Date(props.instance.frontmatter.pubDate), */}
-            {/*  'LLL d, yyyy' */}
-            {/* )} */}
-            date
-          </div>
           <div className="mt-2 text-sm">
             {props.instance.frontmatter.description}
           </div>

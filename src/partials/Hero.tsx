@@ -1,6 +1,6 @@
 import { HeroAvatar } from 'astro-boilerplate-components';
-import { Fragment } from 'react';
 
+import CalendlyIcon from '@/icons/CalendlyIcon';
 import { FacebookIcon } from '@/icons/FacebookIcon';
 import { InstagramIcon } from '@/icons/InstagramIcon';
 import { LinkedinIcon } from '@/icons/LinkedinIcon';
@@ -13,9 +13,12 @@ const Hero = () => (
     <HeroAvatar
       title={
         <div className="-mt-10 md:mt-0">
-          <p>Bienvenue chez Temp'ô coaching,</p>
-          <p>
-            Je m'appelle <GradientText>Magali Deniaud</GradientText> 👋
+          <p className="font-caveat text-5xl">
+            Bienvenue chez Temp'ô coaching,
+          </p>
+          <p className="font-caveat text-5xl">
+            Je m'appelle{' '}
+            <GradientText className="pr-1">Magali Deniaud</GradientText> 👋
           </p>
           <p className="pt-3 text-base font-medium">
             Consultante en <GradientText>santé mentale</GradientText> et{' '}
@@ -49,7 +52,7 @@ const Hero = () => (
         </div>
       }
       socialButtons={
-        <Fragment>
+        <div className="flex items-center">
           <a
             href="https://www.linkedin.com/in/magali-deniaud-0604a716a"
             target="_blank"
@@ -78,7 +81,14 @@ const Hero = () => (
             <span className="sr-only">Whatsapp</span>
             <WhatsAppIcon />
           </a>
-        </Fragment>
+          <a
+            href="#"
+            className="inline-flex size-8 items-center justify-center gap-x-1 rounded bg-blue-500 text-sm font-semibold leading-6 text-white"
+          >
+            <span className="sr-only">Calendly</span>
+            <CalendlyIcon />
+          </a>
+        </div>
       }
     />
   </Section>

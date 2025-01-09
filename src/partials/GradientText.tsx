@@ -2,9 +2,17 @@
 
 import type { PropsWithChildren } from 'react';
 
-export function GradientText(props: PropsWithChildren) {
+type Props = {
+  className?: string;
+};
+
+export function GradientText(props: PropsWithChildren<Props>) {
   return (
-    <span className="bg-gradient-to-br from-primary to-primary/50 bg-clip-text text-transparent">
+    <span
+      className={`bg-gradient-to-br from-primary to-primary/50 bg-clip-text text-transparent dark:bg-primary dark:bg-none ${
+        props.className ?? ''
+      }`}
+    >
       {props.children}
     </span>
   );

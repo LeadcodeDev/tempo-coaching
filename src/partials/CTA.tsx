@@ -1,9 +1,10 @@
+import CalendlyIcon from '@/icons/CalendlyIcon';
 import { EmailIcon } from '@/icons/EmailIcon';
 import { PhoneIcon } from '@/icons/PhoneIcon';
 import { Section } from '@/partials/Section';
 
 const CTA = () => (
-  <Section>
+  <Section id="contact">
     <div className="sm:py-10 md:px-0">
       <div className="relative isolate overflow-hidden rounded-lg bg-gradient-to-r from-primary to-primary/75 px-6 py-10 text-center shadow-2xl sm:rounded-3xl sm:px-16">
         <h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl">
@@ -27,6 +28,13 @@ const CTA = () => (
           >
             <PhoneIcon />
             Téléphone
+          </a>
+          <a
+            href="#"
+            className="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-white"
+          >
+            <CalendlyIcon />
+            Calendly
           </a>
         </div>
         <svg

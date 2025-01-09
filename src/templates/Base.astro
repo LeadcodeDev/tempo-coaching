@@ -3,6 +3,7 @@ import { Footer } from '@/partials/Footer';
 import { Navbar } from '@/partials/Navbar';
 import { AppConfig } from '@/utils/AppConfig';
 import { ViewTransitions } from 'astro:transitions'
+import ThemeSwitcher from '../partials/ThemeSwitcher'
 
 export interface Props {
   head: {
@@ -28,8 +29,8 @@ const {
     <link rel='icon' type='image/x-icon' href='/favicon.ico' />
     <ViewTransitions />
   </head>
-  <body class='bg-circle-gradient from-primary/30 to-white text-gray-700'>
-    <Navbar />
+  <body class="bg-circle-gradient from-primary/30 to-white dark:bg-none dark:bg-gray-900 text-gray-700 dark:text-gray-400">
+  <Navbar client:load />
     <slot />
     <Footer />
   </body>
