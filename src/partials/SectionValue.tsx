@@ -20,7 +20,7 @@ type Props = {
 
 export default function SectionValue(props: Props) {
   return (
-    <section className="relative mx-auto max-w-screen-xl px-5 py-20">
+    <section className="relative mx-auto max-w-screen-xl p-5 md:py-20">
       {(props.title || props.subtitle) && (
         <div className="mb-8 max-w-xl text-center sm:mx-auto md:mx-auto md:mb-12 lg:max-w-2xl">
           {props.subtitle && (
@@ -37,14 +37,26 @@ export default function SectionValue(props: Props) {
         </div>
       )}
 
-      <div className={`flex gap-16 pt-5 ${props.inverted ? 'order-2' : ''}`}>
-        <div className={`basis-1/2 ${props.inverted ? 'order-2' : ''}`}>
+      <div
+        className={`flex flex-col gap-16 pt-5 md:flex-row ${
+          props.inverted ? 'order-2' : ''
+        }`}
+      >
+        <div
+          className={`order-2 basis-1/2 ${
+            props.inverted ? 'md:order-2' : 'md:order-1'
+          }`}
+        >
           <img src={props.image} className="w-full rounded-lg" alt="" />
         </div>
-        <div className={`basis-1/2 ${props.inverted ? 'order-1' : ''}`}>
+        <div
+          className={`order-1 basis-1/2 ${
+            props.inverted ? 'md:order-1' : 'md:order-2'
+          }`}
+        >
           <div className="mb-12 text-lg dark:text-slate-400">
             {props.content.title && (
-              <h3 className="font-caveat mb-5 text-2xl font-bold tracking-tight dark:text-white sm:text-5xl">
+              <h3 className="font-caveat mb-5 text-4xl font-bold tracking-tight dark:text-white sm:text-5xl">
                 {props.content.title}
               </h3>
             )}

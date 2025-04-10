@@ -16,8 +16,9 @@ const Hero = () => (
           <p className="font-caveat text-5xl">
             Bienvenue chez Temp'ô coaching,
           </p>
-          <p className="font-caveat text-5xl">
-            Je m'appelle{' '}
+          <p className="pt-5 text-5xl">
+            Je m'appelle
+            <br />
             <GradientText className="pr-1">Magali Deniaud</GradientText> 👋
           </p>
           <p className="pt-3 text-base font-medium">
