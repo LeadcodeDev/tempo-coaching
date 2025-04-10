@@ -8,3 +8,4 @@ imgAlt: 'Articles thumbnail'
 ---
 
 ![](/assets/articles/2.png)
+![](/assets/articles/3.jpg)

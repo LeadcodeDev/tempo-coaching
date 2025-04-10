@@ -29,7 +29,7 @@ export function Services() {
           items: [
             {
               icon: <CircleCheckBig />,
-              title: '{titre 1}',
+              title: 'Ecoute active',
               description:
                 'L’art du questionnement, sans jugement, en toute authenticité et bienveillance',
             },
@@ -47,7 +47,7 @@ export function Services() {
             },
             {
               icon: <CircleCheckBig />,
-              title: '{titre 2}',
+              title: "Outils de l'accompagnement",
               description:
                 'L’utilisation d’outils tirés de la programmation neurolinguistique PNL, de la Gestalt-Thérapie, de l’analyse transactionnelle, de la systémie, de l’arbre de vie etc…',
             },
@@ -76,10 +76,10 @@ export function Services() {
               description: (
                 <div className="flex flex-col gap-3">
                   <p>
-                    Je propose un accompagnement personnalisé (individuel ou
-                    collectif) où je prends le temps d'écouter les personnes en
-                    mal de soi. L'intérêt étant que chacun puisse retrouver un
-                    équilibre pour son bien être mental et psychologique.
+                    Je propose un accompagnement personnalisé où je prends le
+                    temps d'écouter les personnes en mal de soi. L'intérêt étant
+                    que chacun puisse retrouver un équilibre pour son bien être
+                    mental et psychologique.
                   </p>
                   <p>
                     La personne ne restera pas seule face à sa détresse. Elle
@@ -92,15 +92,15 @@ export function Services() {
             },
             {
               icon: <CircleCheckBig />,
-              title: 'Au travail',
+              title: 'Stresse au travail',
               description: (
                 <p>
-                  J'interviens sur les notions de stress au travail,
-                  d'épuisement professionnel, les risques psychosociaux, sur les
-                  thématiques d'estime, de confiance en soi et d'amour de soi...
-                  en libérant les maux et les incertitudes par les mots et en
-                  accueillant les émotions. "Tout ce qui ne s'exprime pas,
-                  s'imprime ! ".
+                  J'interviens sur les notions de gestion du temps, de stress au
+                  travail, d'épuisement professionnel, les risques
+                  psychosociaux, sur les thématiques d'estime, de confiance en
+                  soi et d'amour de soi... en libérant les maux et les
+                  incertitudes par les mots et en accueillant les émotions.
+                  "Tout ce qui ne s'exprime pas, s'imprime ! ".
                 </p>
               ),
             },
@@ -131,12 +131,13 @@ export function Services() {
       <SectionValue
         image="/assets/images/meeting.png"
         content={{
-          title: 'Accompagnements meeting',
+          title: 'Accompagnements collectifs  et conférences.',
           description: (
             <div className="flex flex-col gap-5">
               <p>
-                Différents types d'accompagnements collectifs : conférences,
-                groupes d'échanges
+                Groupes d'échanges, conférences grand public sur les Compétences
+                Psychosociales et les Risques Psychosociaux : santé mentale en
+                entreprise, risques sur la santé d'un épuisement professionnel
               </p>
               <p>
                 Conférences grand public pour informer sur la santé mentale en
@@ -164,11 +165,32 @@ export function Services() {
           title: 'Auprès des entreprises',
           description: (
             <div className="flex flex-col gap-5">
+              <div className="flex max-w-none flex-row">
+                <div className="mr-2 flex size-8 items-center justify-center rounded-full bg-primary/50 p-2 text-gray-50">
+                  <CircleCheckBig />
+                </div>
+                <div>
+                  <div className="ml-2 mt-1 dark:text-slate-400 rtl:ml-0 rtl:mr-2">
+                    Ateliers collectifs
+                  </div>
+                </div>
+              </div>
               <p>
                 Régulation d’équipe ou médiation pour libérer la parole, aider à
                 identifier les non-dits et restaurer une communication sereine
                 et constructive au sein de l’équipe.
               </p>
+
+              <div className="flex max-w-none flex-row">
+                <div className="mr-2 flex size-8 items-center justify-center rounded-full bg-primary/50 p-2 text-gray-50">
+                  <CircleCheckBig />
+                </div>
+                <div>
+                  <div className="ml-2 mt-1 dark:text-slate-400 rtl:ml-0 rtl:mr-2">
+                    Formations
+                  </div>
+                </div>
+              </div>
               <p>
                 Pour prendre une nouvelle fonction, pour dépasser un obstacle
                 professionnel, pour optimiser la coopération interpersonnelle
