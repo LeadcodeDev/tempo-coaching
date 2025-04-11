@@ -23,7 +23,12 @@ const Hero = () => (
           </p>
           <p className="pt-3 text-base font-medium">
             Consultante en <GradientText>santé mentale</GradientText> et{' '}
-            <GradientText>bien être émotionnel</GradientText>
+            <GradientText>intelligence émotionnelle</GradientText>
+          </p>
+          <p className="text-base font-medium">
+            Intervenante en prévention des{' '}
+            <GradientText>risques psychosociaux</GradientText> et{' '}
+            <GradientText>compétences psychosociales</GradientText>
           </p>
         </div>
       }
@@ -83,7 +88,9 @@ const Hero = () => (
             <WhatsAppIcon />
           </a>
           <a
-            href="#"
+            href="https://calendly.com/tempocoaching"
+            target="_blank"
+            rel="noreferrer noopener"
             className="inline-flex size-8 items-center justify-center gap-x-1 rounded bg-blue-500 text-sm font-semibold leading-6 text-white"
           >
             <span className="sr-only">Calendly</span>

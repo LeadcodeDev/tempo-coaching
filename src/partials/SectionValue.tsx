@@ -60,7 +60,7 @@ export default function SectionValue(props: Props) {
                 {props.content.title}
               </h3>
             )}
-            <div className="text-base dark:text-gray-300">
+            <div className="text-justify text-base dark:text-gray-300">
               {props.content.description}
             </div>
           </div>
@@ -74,7 +74,7 @@ export default function SectionValue(props: Props) {
                   <h3 className="ml-2 text-lg font-medium leading-6 dark:text-white rtl:ml-0 rtl:mr-2">
                     {item.title}
                   </h3>
-                  <div className="ml-2 mt-1 dark:text-slate-400 rtl:ml-0 rtl:mr-2">
+                  <div className="ml-2 mt-1 text-justify dark:text-slate-400 rtl:ml-0 rtl:mr-2">
                     {item.description}
                   </div>
                 </div>

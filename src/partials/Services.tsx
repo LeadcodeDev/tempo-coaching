@@ -14,11 +14,11 @@ export function Services() {
           description: (
             <div className="flex flex-col gap-5">
               <p>Le coaching n’est ni du conseil ni de la thérapie.</p>
-              <p>
+              <p className="text-justify">
                 Le coaching est l’accompagnement d’une personne ou d’un groupe
                 sur une période définie vers un objectif spécifique.
               </p>
-              <p className="-mb-5">
+              <p className="-mb-5 text-justify">
                 Le professionnel coach a un rôle de guide, de partenaire dont
                 l’objectif unique est de vous conduire vers la réalisation de
                 VOTRE objectif en vous permettant de poser des étapes et de
@@ -62,7 +62,7 @@ export function Services() {
           title: 'Accompagnements individuels',
           description: (
             <div className="flex flex-col gap-5">
-              <p>
+              <p className="text-justify">
                 J'accompagne jeunes et adultes, patients en arrêt de travail ou
                 non, vers le mieux-être émotionnel, dans la recherche de sens à
                 leur activité scolaire et professionnelle.
@@ -75,13 +75,13 @@ export function Services() {
               title: 'Personnalisé',
               description: (
                 <div className="flex flex-col gap-3">
-                  <p>
+                  <p className="text-justify">
                     Je propose un accompagnement personnalisé où je prends le
                     temps d'écouter les personnes en mal de soi. L'intérêt étant
                     que chacun puisse retrouver un équilibre pour son bien être
                     mental et psychologique.
                   </p>
-                  <p>
+                  <p className="text-justify">
                     La personne ne restera pas seule face à sa détresse. Elle
                     aura le bénéfice de pouvoir l'exprimer et dépasser les
                     freins en trouvant des solutions adaptées à son état du
@@ -94,7 +94,7 @@ export function Services() {
               icon: <CircleCheckBig />,
               title: 'Stresse au travail',
               description: (
-                <p>
+                <p className="text-justify">
                   J'interviens sur les notions de gestion du temps, de stress au
                   travail, d'épuisement professionnel, les risques
                   psychosociaux, sur les thématiques d'estime, de confiance en
@@ -109,13 +109,13 @@ export function Services() {
               title: 'Craintes et blocages',
               description: (
                 <div className="flex flex-col gap-3">
-                  <p>
+                  <p className="text-justify">
                     Je dispose de techniques libératrices adaptées pour
                     permettre à chacun de trouver en soi les clés de son mieux
                     être, de retrouver du sens et des repères dans son
                     quotidien.
                   </p>
-                  <p>
+                  <p className="text-justify">
                     Je travaille sur les peurs, les blocages pour ne pas
                     focaliser sur le passé, mais imaginer des possibles pour un
                     présent et surtout un futur en adéquation avec les besoins
@@ -134,12 +134,12 @@ export function Services() {
           title: 'Accompagnements collectifs  et conférences.',
           description: (
             <div className="flex flex-col gap-5">
-              <p>
+              <p className="text-justify">
                 Groupes d'échanges, conférences grand public sur les Compétences
                 Psychosociales et les Risques Psychosociaux : santé mentale en
                 entreprise, risques sur la santé d'un épuisement professionnel
               </p>
-              <p>
+              <p className="text-justify">
                 Conférences grand public pour informer sur la santé mentale en
                 entreprise et les risques sur la santé d’un épuisement
                 professionnel
@@ -175,7 +175,7 @@ export function Services() {
                   </div>
                 </div>
               </div>
-              <p>
+              <p className="text-justify">
                 Régulation d’équipe ou médiation pour libérer la parole, aider à
                 identifier les non-dits et restaurer une communication sereine
                 et constructive au sein de l’équipe.
@@ -191,7 +191,7 @@ export function Services() {
                   </div>
                 </div>
               </div>
-              <p>
+              <p className="text-justify">
                 Pour prendre une nouvelle fonction, pour dépasser un obstacle
                 professionnel, pour optimiser la coopération interpersonnelle
                 dans le cadre d’un conflit au sein d’une équipe, pour gérer un
@@ -199,7 +199,7 @@ export function Services() {
                 épuisement personnel
               </p>
               <div className="flex flex-col gap-5">
-                <p>
+                <p className="text-justify">
                   Vous pouvez me retrouver dans le catalogue de formation ELP.
                 </p>
                 <div>
