@@ -92,7 +92,7 @@ export function Services() {
             },
             {
               icon: <CircleCheckBig />,
-              title: 'Stresse au travail',
+              title: 'Stress au travail',
               description: (
                 <p className="text-justify">
                   J'interviens sur les notions de gestion du temps, de stress au
@@ -144,6 +144,15 @@ export function Services() {
                 entreprise et les risques sur la santé d’un épuisement
                 professionnel
               </p>
+
+              <div>
+                <a
+                  href="/posts/coaching_collectif"
+                  className="rounded bg-primary px-3 py-2 text-white hover:bg-primary/80"
+                >
+                  Détail d'une séance
+                </a>
+              </div>
 
               <div className="mt-10">
                 <img
@@ -198,6 +207,30 @@ export function Services() {
                 stress, pour s’interroger sur ses valeurs, pour prévenir un
                 épuisement personnel
               </p>
+              <ul>
+                <li className="list-disc">
+                  <span className="font-bold">
+                    Bien accueillir malgré le stress et l’agressivité
+                  </span>
+                </li>
+                <li className="list-disc">
+                  <span className="font-bold">
+                    Initiation au management d’équipe pour les managers de
+                    proximité
+                  </span>
+                  ; communication positive et non violente pour gérer les
+                  conflits, expérimenter un entretien professionnel
+                </li>
+                <li className="list-disc">
+                  <span className="font-bold">
+                    Développer ses compétences relationnelles, à travers les
+                    soft-skills
+                  </span>
+                </li>
+                <li className="list-disc">
+                  <span className="font-bold">Accompagner le changement</span>
+                </li>
+              </ul>
               <div className="flex flex-col gap-5">
                 <p className="text-justify">
                   Vous pouvez me retrouver dans le catalogue de formation ELP.

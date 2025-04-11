@@ -24,7 +24,7 @@ imgAlt: 'Portfolio thumbnail'
 L’accueil est un moment crucial pour instaurer un climat de confiance et de sérénité. Dès leur arrivée, les participants
 doivent se sentir écoutés et valorisés. Selon le lieu où se déroule l’intervention, j’essaie de créer un espace
 accueillant en préparant une salle confortable et conviviale Prendre le temps d’écouter : Chaque participant peut
-brièvement partager son état émotionnel du moment, souvent appelé "météo émotionnelle ». Cet exercice favorise une
+brièvement partager son état émotionnel du moment, souvent appelé « météo émotionnelle ». Cet exercice favorise une
 meilleure compréhension des dynamiques internes du groupe et ajuste l’animation en fonction des ressentis.
 
 ### L’écriture collective du cadre éthique
@@ -53,7 +53,7 @@ La clôture de la séance est un moment d’évaluation et de recentrage.
 - **Retour d’expérience :** je propose aux participants de partager un mot ou une phrase pour explorer leurs ressentis,
   se décharger émotionnellement
 - **Évaluation collective :** importance d’identifier ce qui a été bénéfique ou ce qui pourrait être amélioré dans les
-  prochaines rencontres.
-- **Projection :** mise en perspective et appropriation des outils dans le quotidien des participants Évocation des
+  prochaines rencontres
+- **Projection :** mise en perspective et appropriation des outils dans le quotidien des participants. Évocation des
   thèmes ou objectifs pour les sessions suivantes afin de maintenir une dynamique positive.
-  Rituel de fin pour se dire au revoir 
+  Rituel de fin pour se dire au revoir

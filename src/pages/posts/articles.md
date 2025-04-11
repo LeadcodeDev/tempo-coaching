@@ -7,5 +7,7 @@ pubDate: '2025-01-08'
 imgAlt: 'Articles thumbnail'
 ---
 
+![](/assets/articles/1.png)
 ![](/assets/articles/2.png)
 ![](/assets/articles/3.jpg)
+![](/assets/articles/4.png)

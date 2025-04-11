@@ -6,7 +6,7 @@ export function About() {
     <div className="mx-auto w-full max-w-screen-xl pt-10">
       <SectionValue
         title="A propos de moi"
-        subtitle="Qui suis-je"
+        subtitle="Qui suis-je ?"
         image="/assets/images/thumbnail_1.jpeg"
         content={{
           description: (
