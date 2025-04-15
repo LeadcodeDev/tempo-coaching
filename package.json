@@ -53,6 +53,7 @@
     "@headlessui/react": "^2.2.1",
     "@heroicons/react": "^2.2.0",
     "@iconify/json": "^2.2.216",
+    "@vercel/analytics": "^1.5.0",
     "astro-boilerplate-components": "^1.0.16",
     "date-fns": "^2.30.0",
     "lucide-react": "^0.469.0",

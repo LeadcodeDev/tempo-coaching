@@ -3,7 +3,7 @@ import { Footer } from '@/partials/Footer';
 import { Navbar } from '@/partials/Navbar';
 import { AppConfig } from '@/utils/AppConfig';
 import { ViewTransitions } from 'astro:transitions'
-import ThemeSwitcher from '../partials/ThemeSwitcher'
+import Analytics from '@vercel/analytics/astro'
 
 export interface Props {
   head: {
@@ -33,5 +33,6 @@ const {
   <Navbar client:load />
     <slot />
     <Footer />
+    <Analytics />
   </body>
 </html>
